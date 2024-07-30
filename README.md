@@ -23,7 +23,7 @@ PHP Motors is a project developed using PHP, CSS, and JavaScript to manage an au
 3. Set up the database:
    - Import the SQL scripts located in the `sql` directory to your MySQL server.
 4. Configure the application:
-   - Update the database configuration in `library/connection.php`.
+   - Update the database configuration in `library/connections.php`.
 
 ## Usage
 
@@ -38,6 +38,7 @@ Open your browser and navigate to `http://localhost:8000` to access the applicat
 ## Features
 
 - **Account Management**: Create and manage user accounts.
+- **Vehicle Category**: Add, update, and delete vehicle classification/category.
 - **Vehicle Management**: Add, update, and delete vehicle information.
 - **Reviews**: Add, view, and manage reviews for vehicles.
 - **Responsive Design**: User-friendly interface optimized for various devices.
